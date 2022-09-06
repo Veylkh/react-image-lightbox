@@ -18,11 +18,3 @@ jobs:
 
       - name: Install deps
         run: yarn
-
-      - name: Run tests
-        run: npm test -- --coverage
-
-      - name: Coveralls
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
