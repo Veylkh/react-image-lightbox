@@ -42,7 +42,7 @@
     "> 1%"
   ],
   "dependencies": {
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.8.1",
     "react-modal": "^3.11.1"
   },
   "peerDependencies": {
